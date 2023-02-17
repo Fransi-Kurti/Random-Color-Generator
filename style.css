@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.colors{
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: darkgreen;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.5);
+    
+}
